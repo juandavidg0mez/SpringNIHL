@@ -39,6 +39,8 @@ public class UserRestController {
         UserModel userModel = new UserModel("Epa","La Arepa");
         model.addAttribute("title", "DesarrollandoCon Spring Perrita");
         model.addAttribute("userModel", userModel);
+        // Recordar que userModel debe ser igual que en el Tempalte
+        
         return "detalles";
     }
 }
